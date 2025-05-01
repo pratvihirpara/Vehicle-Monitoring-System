@@ -92,11 +92,11 @@ Traditional traffic systems rely on fixed timers and manual monitoring, resultin
 
 Follow these steps to run the project locally.
 
-### 1️⃣ Clone the Repository
+### 1️⃣ Run Commands 
 
 bash
 git clone https://github.com/yourusername/vehicle-monitoring-system.git
-cd vehicle-monitoring-system
+cd vehicleMaster
 
 
 ### 2️⃣ Run the Frontend
