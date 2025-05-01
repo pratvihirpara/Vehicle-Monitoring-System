@@ -1,70 +1,103 @@
-# Getting Started with Create React App
+# 🚦 Vehicle Monitoring System
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+An AI-powered web-based system to monitor traffic, detect vehicles, recognize number plates, and simulate dynamic traffic signal control for smarter urban mobility.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🧠 Overview
 
-### `npm start`
+The **Vehicle Monitoring System** is a 6th-semester Software Group Project aimed at reducing traffic congestion, fuel consumption, and pollution by leveraging modern AI techniques.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 👨‍💻 Team Members
 
-### `npm test`
+- Pratvi Hirpara (22IT041)
+- Prushti Kathrotiya (22IT058)
+- Kavya Kariya (22IT054)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## ❓ Problem Statement
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Traditional traffic systems rely on fixed timers and manual monitoring, resulting in:
+- Inefficient traffic flow
+- Increased delays and fuel wastage
+- Lack of real-time adaptive response
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🎯 Project Objectives
 
-### `npm run eject`
+- 🔍 Vehicle Detection and Counting using YOLOv8n
+- 🔢 Number Plate Recognition via OCR
+- 🚦 Dynamic Signal Simulation for Traffic Control
+- 🌐 Web-based Frontend and ML Integration
+- 📉 Optimize flow, reduce congestion and emissions
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🧰 Technology Stack
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- **Frontend:** HTML, CSS, JavaScript, React
+- **Backend:** Node.js, Express
+- **Machine Learning:** Python, YOLOv8n, EasyOCR
+- **Others:** OpenCV, Flask (for video processing), MongoDB (optional for data storage)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+## 🛠️ Methodology
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. Problem Analysis & Requirement Gathering  
+2. Data Collection for Vehicles & Plates  
+3. YOLOv8n Deployment for Object Detection  
+4. OCR Integration for Number Plate Recognition  
+5. Traffic Signal Simulation Development  
+6. Website Development and System Integration  
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## 🏗️ System Architecture
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Video Input → YOLOv8n Detection → OCR → Signal Control Logic → Output Video/Live Feed → UI Display
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 🎨 UI/UX & Frontend Highlights
 
-### Making a Progressive Web App
+- Modern, interactive dashboard
+- Live feed integration
+- Signal simulation panel
+- Upload and download video processing interface
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+---
 
-### Advanced Configuration
+## 🚧 Challenges Faced
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- ⚠️ Limited dataset for number plates
+- 🔒 CORS issues in frontend-backend integration
+- 🕒 Real-time delays during processing
+- 🌐 Generalizing number plate formats across regions
 
-### Deployment
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## 🚀 Future Scope
 
-### `npm run build` fails to minify
+- 🌆 Integration with Smart City IoT Systems
+- 📸 Multi-Camera Support for better traffic insights
+- 📊 Advanced Reporting and Analytics for authorities
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+
+## ✅ Conclusion
+
+This system demonstrates how AI and web technologies can be fused to create smarter, data-driven traffic management systems, bringing cities one step closer to automation and sustainability.
+
+---
+
+
+## 📁 How to Run
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/vehicle-monitoring-system.git
