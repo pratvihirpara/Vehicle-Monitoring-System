@@ -88,6 +88,33 @@ Traditional traffic systems rely on fixed timers and manual monitoring, resultin
 - 📊 Advanced Reporting and Analytics for authorities
 
 ---
+## 🚀 Getting Started
+
+Follow these steps to run the project locally.
+
+### 1️⃣ Clone the Repository
+
+bash
+git clone https://github.com/yourusername/vehicle-monitoring-system.git
+cd vehicle-monitoring-system
+
+
+### 2️⃣ Run the Frontend
+
+bash
+cd frontend
+npm install
+npm start
+
+
+The React app will start on http://localhost:3000.
+
+### 3️⃣ Run the Backend
+
+In a *new terminal* window:
+
+bash
+
 
 ## ✅ Conclusion
 
